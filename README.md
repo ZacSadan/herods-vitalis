@@ -58,6 +58,22 @@ The HTML report is a single self-contained file in Hebrew. It shows:
 - Weeks with no availability
 - The full table of results
 
+### Sample report
+
+These screenshots are from a run on 8 October 2026.
+
+The cheapest room check and the summary stats:
+
+![Report header, cheapest room check and summary stats](docs/images/report-overview.png)
+
+Total price for the whole stay, by check-in date:
+
+![Total price charts for the Executive Room and Executive Suite](docs/images/report-charts.png)
+
+Weeks with no availability, and the start of the full results table:
+
+![Weeks with no availability and the results table](docs/images/report-table.png)
+
 ## Project layout
 
 ```
@@ -69,6 +85,7 @@ code/
   report-body-template.html  report markup
   report.css                 report styles
   report.js                  report rendering in the browser
+docs/images/                 sample report screenshots for this README
 output/                      generated files (git-ignored)
 ```
 
