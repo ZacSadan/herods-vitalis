@@ -1,0 +1,14 @@
+# Generated files (keep the folder itself via .gitkeep)
+output/*
+!output/.gitkeep
+
+# Node
+node_modules/
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

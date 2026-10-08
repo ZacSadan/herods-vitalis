@@ -1,0 +1,119 @@
+<div class="wrap">
+
+  <header class="hero">
+    <span class="eyebrow">מעקב מחירים · הזמנות פתאל</span>
+    <h1>כמה עולה סוף שבוע בהרודס ויטאליס אילת?</h1>
+    <p class="subtitle">
+      מחירים לחברי מועדון (לינה וארוחת בוקר, זוג מבוגרים), לחדר אקזקיוטיב ולסוויטת
+      אקזקיוטיב, נבדקו מדי שבוע לאורך חצי שנה קדימה — עבור סוף שבוע (חמישי–ראשון,
+      3 לילות) ואמצע שבוע (ראשון–חמישי, 4 לילות) — ישירות מול מנוע ההזמנות של פתאל.
+    </p>
+    <div class="hero-meta" id="hero-meta"></div>
+  </header>
+
+  <section id="cheapest-section">
+    <h2>יש חדר זול יותר?</h2>
+    <p class="section-note">לא — חדר אקזקיוטיב הוא כבר החדר הזול ביותר במלון. בדיקה ישירה מול מנוע ההזמנות מראה שהמחיר המינימלי שלו זהה למחיר המינימלי של המלון כולו.</p>
+    <div class="callout">
+      <div class="badge">✓ הזול ביותר</div>
+      <div>
+        <p>שלוש קטגוריות חדרים קיימות במלון — חדר אקזקיוטיב הוא הזול מביניהן, וסוויטת אקזקיוטיב יקרה ממנו ב־<span id="premium-inline"></span> בממוצע.</p>
+        <div class="room-chain">
+          <span class="chip is-cheapest">חדר אקזקיוטיב</span>
+          <span class="chip">סוויטת אקזקיוטיב</span>
+          <span class="chip">סוויטת גשם</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="stats-section">
+    <h2>מספרים עיקריים</h2>
+    <div class="stat-group">
+      <span class="stat-group-label">חדר אקזקיוטיב</span>
+      <div class="stat-grid" id="stat-grid-er"></div>
+    </div>
+    <div class="stat-group">
+      <span class="stat-group-label">סוויטת אקזקיוטיב</span>
+      <div class="stat-grid" id="stat-grid-es"></div>
+    </div>
+  </section>
+
+  <section id="charts-total-section">
+    <h2>מחיר לכל השהות</h2>
+    <p class="section-note">המחיר הכולל לחברי מועדון, לפי תאריך הגעה. תאריכים חסרים בציר לא היו זמינים לדפוס שהות זה.</p>
+    <div class="chart-card">
+      <h3>חדר אקזקיוטיב</h3>
+      <div class="chart-legend">
+        <span><i class="swatch solid" style="background:var(--accent)"></i>סוף שבוע · חמישי–ראשון (3 לילות)</span>
+        <span><i class="swatch solid" style="background:var(--accent-alt)"></i>אמצע שבוע · ראשון–חמישי (4 לילות)</span>
+        <span><i class="swatch solid" style="background:var(--line)"></i>לא זמין</span>
+      </div>
+      <div id="chart-er-total"></div>
+    </div>
+    <div class="chart-card">
+      <h3>סוויטת אקזקיוטיב</h3>
+      <div class="chart-legend">
+        <span><i class="swatch solid" style="background:var(--accent2)"></i>סוף שבוע · חמישי–ראשון (3 לילות)</span>
+        <span><i class="swatch solid" style="background:var(--accent2-alt)"></i>אמצע שבוע · ראשון–חמישי (4 לילות)</span>
+        <span><i class="swatch solid" style="background:var(--line)"></i>לא זמין</span>
+      </div>
+      <div id="chart-es-total"></div>
+    </div>
+  </section>
+
+  <section id="charts-pernight-section">
+    <h2>מחיר ללילה</h2>
+    <p class="section-note">שהות אמצע שבוע (ראשון–חמישי, 4 לילות) יוצאת זולה יותר ללילה מסוף שבוע (חמישי–ראשון, 3 לילות), בעקביות, בשני סוגי החדרים.</p>
+    <div class="chart-card">
+      <h3>חדר אקזקיוטיב — ₪ ללילה</h3>
+      <div class="chart-legend">
+        <span><i class="swatch solid" style="background:var(--accent)"></i>סוף שבוע (3 לילות)</span>
+        <span><i class="swatch solid" style="background:var(--accent-alt)"></i>אמצע שבוע (4 לילות)</span>
+        <span><i class="swatch solid" style="background:var(--line)"></i>לא זמין</span>
+      </div>
+      <div id="chart-er-pn"></div>
+    </div>
+    <div class="chart-card">
+      <h3>סוויטת אקזקיוטיב — ₪ ללילה</h3>
+      <div class="chart-legend">
+        <span><i class="swatch solid" style="background:var(--accent2)"></i>סוף שבוע (3 לילות)</span>
+        <span><i class="swatch solid" style="background:var(--accent2-alt)"></i>אמצע שבוע (4 לילות)</span>
+        <span><i class="swatch solid" style="background:var(--line)"></i>לא זמין</span>
+      </div>
+      <div id="chart-es-pn"></div>
+    </div>
+  </section>
+
+  <section id="availability-section">
+    <h2>שבועות ללא זמינות</h2>
+    <p class="section-note">בשבועות הבאים לא נמצאו חדרים פנויים באף אחד מהחדרים, באף אחד מדפוסי השהות. כדאי לבדוק שוב סמוך למועד — ייתכנו ביטולים.</p>
+    <div class="avail-strip" id="avail-strip"></div>
+  </section>
+
+  <section id="table-section">
+    <h2>כל הנתונים</h2>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr>
+            <th>תאריך הגעה</th>
+            <th>דפוס שהות</th>
+            <th>אקזקיוטיב · סה"כ</th>
+            <th>אקזקיוטיב · ללילה</th>
+            <th>סוויטה · סה"כ</th>
+            <th>סוויטה · ללילה</th>
+            <th>סטטוס</th>
+          </tr>
+        </thead>
+        <tbody>__TABLE_ROWS__</tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    <span>מקור: מנוע ההזמנות של פתאל (be-new.fattal.co.il), מלון 10051</span>
+    <span id="generated-at"></span>
+  </footer>
+
+</div>
